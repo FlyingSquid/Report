@@ -3,10 +3,12 @@
  Whether an application uses compression or intricate caching mechanisms, the easiest way to improve content delivery speed is to \textit{send less over the network}. With this in mind, a lot of research has been done with respect to protocols focused on eliminating redundant data transfers over HTTP links. Much of this redundancy is caused by the first-class nature of the \lq file \rq in traditional caching systems.\\
 
 \noindent
-Inspired by research at Berkley on value based caching\cite{Rhea09}, Flying Squid's Fingerprinting system caches with respect to data, not file name. As a result, only changed and new parts of content need ever retransmitted over a network. This is presented as a simple, C++ class based library.
+Inspired by research at Berkley on value based caching\cite{Rhea09}, Flying Squid's Fingerprinting system caches with respect to data, not file name. As a result, only changed and new parts of content need ever retransmitted over a network. 
 
 
 \subsection{The API}
+
+Flying Squid's value based caching protocol takes the form of a simple, C++ class-based library. Modules exist on both the client and user side.
 
 \subsubsection{Client}
 
@@ -115,3 +117,6 @@ For files differing by a large number of chunks distributed through the file, sm
 \end{figure}
 
 Taking the average of all these files, it was found that a minimal amount was resent around a maximum block size of $1 KB$. As a result, the maximum value chosen was $1024$ bytes, with an expected max size of $512$ bytes.
+
+\subsection{Example: Integration}
+

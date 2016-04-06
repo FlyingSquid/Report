@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.27)  6 APR 2016 12:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.27)  6 APR 2016 12:43
 entering extended mode
 **./FlyingSquid.tex
 (FlyingSquid.tex
@@ -605,7 +605,7 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.4 
      <./images/TraditionalArch.jpg>] [4]
-Overfull \hbox (0.90648pt too wide) in paragraph at lines 73--75
+Overfull \hbox (0.90648pt too wide) in paragraph at lines 75--77
 []\OT1/cmr/m/n/10 Server-side files are split into blocks of max-i-mum size $1\
 OML/cmm/m/it/10 KB$ \OT1/cmr/m/n/10 us-ing a []\OT1/cmtt/m/n/10 djb-2\OT1/cmr/m
 /n/10 [[][]2[][]]
@@ -615,27 +615,27 @@ OML/cmm/m/it/10 KB$ \OT1/cmr/m/n/10 us-ing a []\OT1/cmtt/m/n/10 djb-2\OT1/cmr/m
 File: images/HaskellGraph.png Graphic file (type png)
 
 <use images/HaskellGraph.png>
-Package pdftex.def Info: images/HaskellGraph.png used on input line 95.
+Package pdftex.def Info: images/HaskellGraph.png used on input line 97.
 (pdftex.def)             Requested size: 345.0pt x 213.33347pt.
 
 <images/HTMLGraph.png, id=158, 602.25pt x 372.39125pt>
 File: images/HTMLGraph.png Graphic file (type png)
 
 <use images/HTMLGraph.png>
-Package pdftex.def Info: images/HTMLGraph.png used on input line 101.
+Package pdftex.def Info: images/HTMLGraph.png used on input line 103.
 (pdftex.def)             Requested size: 345.0pt x 213.33347pt.
  [6 <./images/HaskellGraph.png>]
 <images/CGraph.png, id=167, 602.25pt x 372.39125pt>
 File: images/CGraph.png Graphic file (type png)
  <use images/CGraph.png>
-Package pdftex.def Info: images/CGraph.png used on input line 107.
+Package pdftex.def Info: images/CGraph.png used on input line 109.
 (pdftex.def)             Requested size: 345.0pt x 213.33347pt.
 
 <images/AllGraph.png, id=168, 602.25pt x 372.39125pt>
 File: images/AllGraph.png Graphic file (type png)
 
 <use images/AllGraph.png>
-Package pdftex.def Info: images/AllGraph.png used on input line 114.
+Package pdftex.def Info: images/AllGraph.png used on input line 116.
 (pdftex.def)             Requested size: 345.0pt x 213.33347pt.
  [7 <./images/HTMLGraph.png> <./images/CGraph.png>])
 Overfull \hbox (2.80153pt too wide) in paragraph at lines 58--58
@@ -649,8 +649,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
  (FlyingSquid.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
-Package rerunfilecheck Info: File `FlyingSquid.out' has not changed.
-(rerunfilecheck)             Checksum: 802EA7D8CC347EDD866BC50770C8A697;623.
+
+
+Package rerunfilecheck Warning: File `FlyingSquid.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `FlyingSquid.out':
+(rerunfilecheck)             Before: 802EA7D8CC347EDD866BC50770C8A697;623
+(rerunfilecheck)             After:  0374BC70A5279A787D86F73DD1106870;694.
 Package logreq Info: Writing requests to 'FlyingSquid.run.xml'.
 \openout1 = `FlyingSquid.run.xml'.
 
@@ -658,13 +665,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
  )
 (\end occurred when \iftrue on line 42 was incomplete) 
 Here is how much of TeX's memory you used:
- 12926 strings out of 493634
- 201785 string characters out of 3141299
+ 12927 strings out of 493634
+ 201799 string characters out of 3141299
  443598 words of memory out of 3000000
  16100 multiletter control sequences out of 15000+200000
  10304 words of font info for 38 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 36i,6n,58p,939b,1123s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,6n,58p,939b,1121s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/M
 iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTe
@@ -677,9 +684,9 @@ type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmtt9.pfb>
-Output written on FlyingSquid.pdf (8 pages, 260467 bytes).
+Output written on FlyingSquid.pdf (8 pages, 261440 bytes).
 PDF statistics:
- 239 PDF objects out of 1000 (max. 8388607)
- 77 named destinations out of 1000 (max. 500000)
+ 240 PDF objects out of 1000 (max. 8388607)
+ 78 named destinations out of 1000 (max. 500000)
  114 words of extra memory for PDF output out of 10000 (max. 10000000)
 

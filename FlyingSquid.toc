@@ -20,4 +20,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.3}Statistics}{5}{subsection.5.3}
 \defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4}Example: Integration}{8}{subsection.5.4}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6}Conclusion}{8}{section.6}
