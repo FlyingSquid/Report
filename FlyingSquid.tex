@@ -1,0 +1,59 @@
+\documentclass {article}
+\usepackage{amsmath}
+\usepackage{appendix}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true, % make the links colored
+    linkcolor=black, % color TOC links in black
+    urlcolor=red, % color URLs in red
+    linktoc=all % 'all' will create links for everything in the TOC
+}
+\usepackage{float}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage{csquotes}
+\usepackage{fancyvrb}
+
+\usepackage[backend=bibtex,style=numeric]{biblatex}
+\addbibresource{sources.bib}
+
+\usepackage{listings}
+\lstset{
+basicstyle=\small\ttfamily,
+columns=flexible,
+frame=single,
+breaklines=true,
+language=C++,
+keywordstyle=\color{magenta}\ttfamily,
+stringstyle=\color{red}\ttfamily,
+commentstyle=\color{blue}\ttfamily,
+}
+
+
+\title {
+	{Flying Squid\\[0.4in]}
+	{Tufts University: Senior Design Project\\[0.2in]}
+	{\large Advisor: Prof. Fahad Dogar\\}
+}
+
+\author {Sunjay Bhatia, Victor Chao, Jim Mao, and Siddhartha Prasad}
+\date{6th April 2016}
+
+\begin {document}
+
+\maketitle
+
+\tableofcontents
+\pagebreak
+
+\input{Background.tex}
+
+\input{CloudCaching.tex}
+
+\input{Rabin.tex}
+
+\section{Conclusion}
+
+\printbibliography
+
+\end{document}

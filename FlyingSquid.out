@@ -1,0 +1,11 @@
+\BOOKMARK [1][-]{section.1}{Abstract}{}% 1
+\BOOKMARK [1][-]{section.2}{Background}{}% 2
+\BOOKMARK [1][-]{section.3}{Flying Squid}{}% 3
+\BOOKMARK [1][-]{section.4}{Cloud Caching}{}% 4
+\BOOKMARK [1][-]{section.5}{Fingerprinting: Value Based Caching}{}% 5
+\BOOKMARK [2][-]{subsection.5.1}{The API}{section.5}% 6
+\BOOKMARK [3][-]{subsubsection.5.1.1}{Client}{subsection.5.1}% 7
+\BOOKMARK [3][-]{subsubsection.5.1.2}{Server}{subsection.5.1}% 8
+\BOOKMARK [2][-]{subsection.5.2}{Technical Approach}{section.5}% 9
+\BOOKMARK [2][-]{subsection.5.3}{Statistics}{section.5}% 10
+\BOOKMARK [1][-]{section.6}{Conclusion}{}% 11

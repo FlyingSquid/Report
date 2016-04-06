@@ -1,0 +1,60 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{Rhea09}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Sean C.~Rhea}{S.~C.~R.}%
+     {Eric~Brewer}{E.~B.}%
+     {}{}%
+     {Kevin~Lian}{K.~L.}}%
+  }
+  \strng{namehash}{SCRKLEB1}
+  \strng{fullhash}{SCRKLEB1}
+  \field{sortinit}{S}
+  \field{pages}{619\bibrangedash 628}
+  \field{title}{Value-Based Web Caching}
+  \field{journaltitle}{Proceedings of the 12th international conference on
+  World Wide Web}
+  \field{year}{2003}
+\endentry
+
+\entry{djb2}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Yigit}{Y.}%
+     {Ozan}{O.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{YO1}
+  \strng{fullhash}{YO1}
+  \field{sortinit}{Y}
+  \field{title}{Hash Functions}
+  \verb{url}
+  \verb http://www.cse.yorku.ca/~oz/hash.html
+  \endverb
+  \field{urlday}{06}
+  \field{urlmonth}{04}
+  \field{urlyear}{2016}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
