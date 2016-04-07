@@ -14,7 +14,15 @@ Proxy servers help communication between two entities on a network. They often a
 
 In Figure 1 we can see a simple representation of the traditional role proxies have. Users connect to proxy servers as intermediaries to their connection to a network, such as the internet. Each of these proxies traditionally has its own disk and RAM cache. It is also possible to utilize these proxies as a distributed network with a shared cache represented by \lq joining \rq each of the disk caches into a unified cache. However, this cache still only incorporates the basic levels of disk and RAM storage and there is potentially significant overhead in communicating between proxies to locate content that may be on a different physical machine than the one handling the request and serving the content.
 
-
+\subsection{Apache Traffic Server}
 
 \section{Flying Squid}
 
+Flying Squid is an Apache Traffic Server augmentation that can provide a distributed, cloud based cache localized at the edge of the network. The system utilizes custom caching techniques and protocols to reduce uneccesary bandwidth use. Thus, it provides faster data delivery than content providers by themselves. 
+
+\begin{figure}[H] \centering
+\includegraphics[width=\textwidth]{FlyingSquidArch}
+\caption{Flying Squid Proxy Web-Cache Interactions Architecture}
+\end{figure}
+
+Flying Squid aims to be a truly web-based personal proxy, with shared cloud based caches and value-based storage and transfer protocols. By improving content delivery speed and reducing client data usage, the proxy is especially useful to mobile users and those with spotty network connectivity.
