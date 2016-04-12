@@ -90,32 +90,36 @@ Pairs of files were generated that differ in the following ways:
 \item C: Files differ by a large number of chunks distributed through the file
 \end{enumerate}
 
-These files were tested over the Flying Squid fingerprinting system, with different maximum block sizes. Max block sizes	smaller than $256$ bytes were found to cause significantly more conflicts with the internal \verb|djb2| hash.
+For each pair, these pairs of files were sent one after the other over a network using the Flying Squid fingerprinting system, with different maximum block sizes. Max block sizes 	smaller than $256$ bytes were found to cause significantly more conflicts with the internal \verb|djb2| hash. 
 
 
 \begin{figure}[H] \centering
 \includegraphics[width=\textwidth]{HaskellGraph.png}
+\caption{Details the percent of the second file sent at different max block sizes.}
 \end{figure}
-
+\noindent
 For files differing by one byte, a balance has to be struck between several small block headers being sent and the size of the retransmitted block(s). At most one block will be retransmitted due to the small difference between files. An optimal block size was found around $1000$ bytes
 
 \begin{figure}[H] \centering
 \includegraphics[width=\textwidth]{HTMLGraph.png}
+\caption{Details the percent of the second file sent at different max block sizes.}
 \end{figure}
-
+\noindent
 For files differing by a large contiguous chunk a minimum was found around $1400$ bytes.
 
 \begin{figure}[H] \centering
 \includegraphics[width=\textwidth]{CGraph.png}
+\caption{Details the percent of the second file sent at different max block sizes.}
 \end{figure}
-
+\noindent
 For files differing by a large number of chunks distributed through the file, smaller max block sizes were generally found to be better.
 
 
 \begin{figure}[H] \centering
 \includegraphics[width=\textwidth]{AllGraph.png}
+\caption{Details the percent of the second file sent at different max block sizes.}
 \end{figure}
-
+\noindent
 Taking the average of all these files, it was found that a minimal amount was resent around a maximum block size of $1 KB$. As a result, the maximum value chosen was $1024$ bytes, with an expected max size of $512$ bytes.
 
 \subsection{Example: Integration}

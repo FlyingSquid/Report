@@ -16,6 +16,16 @@
   {}
 \endgroup
 
+\entry{ATS}{online}{}
+  \verb{url}
+  \verb https://trafficserver.readthedocs.org/en/latest/preface/index.en.html#w
+  \verb hat-is-apache-traffic-server
+  \endverb
+  \field{urlday}{12}
+  \field{urlmonth}{04}
+  \field{urlyear}{2016}
+\endentry
+
 \entry{Rhea09}{article}{}
   \name{author}{1}{}{%
     {{}%
