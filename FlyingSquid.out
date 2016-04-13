@@ -1,16 +1,15 @@
-\BOOKMARK [1][-]{section.1}{Abstract}{}% 1
-\BOOKMARK [1][-]{section.2}{Background}{}% 2
-\BOOKMARK [1][-]{section.3}{Flying Squid}{}% 3
-\BOOKMARK [2][-]{subsection.3.1}{Apache Traffic Server}{section.3}% 4
-\BOOKMARK [1][-]{section.4}{Cloud Caching}{}% 5
-\BOOKMARK [1][-]{section.5}{Fingerprinting: Value Based Caching}{}% 6
-\BOOKMARK [2][-]{subsection.5.1}{The API}{section.5}% 7
-\BOOKMARK [3][-]{subsubsection.5.1.1}{Client}{subsection.5.1}% 8
-\BOOKMARK [3][-]{subsubsection.5.1.2}{Server}{subsection.5.1}% 9
-\BOOKMARK [2][-]{subsection.5.2}{Technical Approach}{section.5}% 10
-\BOOKMARK [2][-]{subsection.5.3}{Statistics}{section.5}% 11
-\BOOKMARK [2][-]{subsection.5.4}{Example: Integration}{section.5}% 12
-\BOOKMARK [1][-]{section.6}{Conclusion}{}% 13
-\BOOKMARK [2][-]{subsection.6.1}{Open Source}{section.6}% 14
-\BOOKMARK [2][-]{subsection.6.2}{Benchmarking}{section.6}% 15
-\BOOKMARK [2][-]{subsection.6.3}{Further Work}{section.6}% 16
+\BOOKMARK [1][-]{section.1}{Background}{}% 1
+\BOOKMARK [1][-]{section.2}{Flying Squid}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Apache Traffic Server}{section.2}% 3
+\BOOKMARK [1][-]{section.3}{Cloud Caching}{}% 4
+\BOOKMARK [1][-]{section.4}{Fingerprinting: Value Based Caching}{}% 5
+\BOOKMARK [2][-]{subsection.4.1}{The API}{section.4}% 6
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Client}{subsection.4.1}% 7
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Server}{subsection.4.1}% 8
+\BOOKMARK [2][-]{subsection.4.2}{Technical Approach}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.3}{Statistics}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.4}{Example: Integration}{section.4}% 11
+\BOOKMARK [1][-]{section.5}{Conclusion}{}% 12
+\BOOKMARK [2][-]{subsection.5.1}{Benchmarking}{section.5}% 13
+\BOOKMARK [2][-]{subsection.5.2}{Further Work}{section.5}% 14
+\BOOKMARK [2][-]{subsection.5.3}{Open Source}{section.5}% 15

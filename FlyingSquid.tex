@@ -17,6 +17,8 @@
 \usepackage[backend=bibtex,style=numeric]{biblatex}
 \addbibresource{sources.bib}
 
+\usepackage[margin=1.2in]{geometry}
+
 \usepackage{listings}
 \lstset{
 basicstyle=\small\ttfamily,
@@ -33,17 +35,19 @@ commentstyle=\color{blue}\ttfamily,
 \usetikzlibrary{arrows}
 
 \title {
-	{Flying Squid\\[0.4in]}
-	{Tufts University: Senior Design Project\\[0.2in]}
-	{\large Advisor: Prof. Fahad Dogar\\}
+	{\textbf{Flying Squid}\\}
+	{Tufts University: Senior Design Project\\}
+	{\large Advisor: Prof. Fahad Dogar}
 }
 
 \author {Sunjay Bhatia, Victor Chao, Jim Mao, and Siddhartha Prasad}
-\date{7th April 2016}
+\date{Spring 2016}
 
 \begin {document}
-
 \maketitle
+
+\noindent
+Flying Squid is a proxy that can provide a distributed, cloud based cache localized at the edge of a network. The system can eliminate unnecessary bandwidth use, and provide faster data delivery than content providers by themselves. Flying Squid aims to be a truly web-based personal proxy, with shared cloud based caches and value based partial caching. By improving content delivery speed and reducing client data usage, the proxy will be especially useful to mobile users and those with spotty network connectivity.
 
 \tableofcontents
 \pagebreak
