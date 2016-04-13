@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.1.14)  13 APR 2016 11:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.1.14)  13 APR 2016 12:58
 entering extended mode
 **./FlyingSquid.tex
 (FlyingSquid.tex
@@ -503,44 +503,26 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 atex.cfg"
 File: biblatex.cfg 
 )))
-("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geom
-etry.sty"
-Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count304
-\Gm@cntv=\count305
-\c@Gm@tempcnt=\count306
-\Gm@bindingoffset=\dimen118
-\Gm@wd@mp=\dimen119
-\Gm@odd@mp=\dimen120
-\Gm@even@mp=\dimen121
-\Gm@layoutwidth=\dimen122
-\Gm@layoutheight=\dimen123
-\Gm@layouthoffset=\dimen124
-\Gm@layoutvoffset=\dimen125
-\Gm@dimlist=\toks23
-
-("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geom
-etry.cfg"))
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\list
 ings.sty"
-\lst@mode=\count307
+\lst@mode=\count304
 \lst@gtempboxa=\box31
-\lst@token=\toks24
-\lst@length=\count308
-\lst@currlwidth=\dimen126
-\lst@column=\count309
-\lst@pos=\count310
-\lst@lostspace=\dimen127
-\lst@width=\dimen128
-\lst@newlines=\count311
-\lst@lineno=\count312
-\lst@maxwidth=\dimen129
+\lst@token=\toks23
+\lst@length=\count305
+\lst@currlwidth=\dimen118
+\lst@column=\count306
+\lst@pos=\count307
+\lst@lostspace=\dimen119
+\lst@width=\dimen120
+\lst@newlines=\count308
+\lst@lineno=\count309
+\lst@maxwidth=\dimen121
 
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstm
 isc.sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count313
-\lst@skipnumbers=\count314
+\c@lstnumber=\count310
+\lst@skipnumbers=\count311
 \lst@framebox=\box32
 )
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\list
@@ -569,9 +551,9 @@ r\pgf.sty"
 \pgfrcs.sty"
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utiliti
 es\pgfutil-common.tex"
-\pgfutil@everybye=\toks25
-\pgfutil@tempdima=\dimen130
-\pgfutil@tempdimb=\dimen131
+\pgfutil@everybye=\toks24
+\pgfutil@tempdima=\dimen122
+\pgfutil@tempdimb=\dimen123
 
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utiliti
 es\pgfutil-common-lists.tex"))
@@ -599,30 +581,30 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utiliti
 es\pgfkeys.code.tex"
-\pgfkeys@pathtoks=\toks26
-\pgfkeys@temptoks=\toks27
+\pgfkeys@pathtoks=\toks25
+\pgfkeys@temptoks=\toks26
 
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utiliti
 es\pgfkeysfiltered.code.tex"
-\pgfkeys@tmptoks=\toks28
+\pgfkeys@tmptoks=\toks27
 ))
-\pgf@x=\dimen132
-\pgf@y=\dimen133
-\pgf@xa=\dimen134
-\pgf@ya=\dimen135
-\pgf@xb=\dimen136
-\pgf@yb=\dimen137
-\pgf@xc=\dimen138
-\pgf@yc=\dimen139
+\pgf@x=\dimen124
+\pgf@y=\dimen125
+\pgf@xa=\dimen126
+\pgf@ya=\dimen127
+\pgf@xb=\dimen128
+\pgf@yb=\dimen129
+\pgf@xc=\dimen130
+\pgf@yc=\dimen131
 \w@pgf@writea=\write5
 \r@pgf@reada=\read3
-\c@pgf@counta=\count315
-\c@pgf@countb=\count316
-\c@pgf@countc=\count317
-\c@pgf@countd=\count318
-\t@pgf@toka=\toks29
-\t@pgf@tokb=\toks30
-\t@pgf@tokc=\toks31
+\c@pgf@counta=\count312
+\c@pgf@countb=\count313
+\c@pgf@countc=\count314
+\c@pgf@countd=\count315
+\t@pgf@toka=\toks28
+\t@pgf@tokb=\toks29
+\t@pgf@tokc=\toks30
 
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systeml
 ayer\pgf.cfg"
@@ -641,8 +623,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systeml
 ayer\pgfsyssoftpath.code.tex"
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count319
-\pgfsyssoftpath@bigbuffer@items=\count320
+\pgfsyssoftpath@smallbuffer@items=\count316
+\pgfsyssoftpath@bigbuffer@items=\count317
 )
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systeml
 ayer\pgfsysprotocol.code.tex"
@@ -679,12 +661,12 @@ fmathcalc.code.tex"
 fmathutil.code.tex")
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pg
 fmathparser.code.tex"
-\pgfmath@dimen=\dimen140
-\pgfmath@count=\count321
+\pgfmath@dimen=\dimen132
+\pgfmath@count=\count318
 \pgfmath@box=\box34
-\pgfmath@toks=\toks32
-\pgfmath@stack@operand=\toks33
-\pgfmath@stack@operation=\toks34
+\pgfmath@toks=\toks31
+\pgfmath@stack@operand=\toks32
+\pgfmath@stack@operation=\toks33
 )
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pg
 fmathfunctions.code.tex"
@@ -706,37 +688,37 @@ fmathfunctions.misc.code.tex")
 fmathfunctions.integerarithmetics.code.tex")))
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pg
 fmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count322
+\c@pgfmathroundto@lastzeros=\count319
 ))
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basicla
 yer\pgfcorepoints.code.tex"
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen141
-\pgf@picmaxx=\dimen142
-\pgf@picminy=\dimen143
-\pgf@picmaxy=\dimen144
-\pgf@pathminx=\dimen145
-\pgf@pathmaxx=\dimen146
-\pgf@pathminy=\dimen147
-\pgf@pathmaxy=\dimen148
-\pgf@xx=\dimen149
-\pgf@xy=\dimen150
-\pgf@yx=\dimen151
-\pgf@yy=\dimen152
-\pgf@zx=\dimen153
-\pgf@zy=\dimen154
+\pgf@picminx=\dimen133
+\pgf@picmaxx=\dimen134
+\pgf@picminy=\dimen135
+\pgf@picmaxy=\dimen136
+\pgf@pathminx=\dimen137
+\pgf@pathmaxx=\dimen138
+\pgf@pathminy=\dimen139
+\pgf@pathmaxy=\dimen140
+\pgf@xx=\dimen141
+\pgf@xy=\dimen142
+\pgf@yx=\dimen143
+\pgf@yy=\dimen144
+\pgf@zx=\dimen145
+\pgf@zy=\dimen146
 )
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basicla
 yer\pgfcorepathconstruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen155
-\pgf@path@lasty=\dimen156
+\pgf@path@lastx=\dimen147
+\pgf@path@lasty=\dimen148
 )
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basicla
 yer\pgfcorepathusage.code.tex"
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen157
-\pgf@shorten@start@additional=\dimen158
+\pgf@shorten@end@additional=\dimen149
+\pgf@shorten@start@additional=\dimen150
 )
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basicla
 yer\pgfcorescopes.code.tex"
@@ -744,19 +726,19 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box35
 \pgf@hbox=\box36
 \pgf@layerbox@main=\box37
-\pgf@picture@serial@count=\count323
+\pgf@picture@serial@count=\count320
 )
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basicla
 yer\pgfcoregraphicstate.code.tex"
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen159
+\pgflinewidth=\dimen151
 )
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basicla
 yer\pgfcoretransformations.code.tex"
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen160
-\pgf@pt@y=\dimen161
-\pgf@pt@temp=\dimen162
+\pgf@pt@x=\dimen152
+\pgf@pt@y=\dimen153
+\pgf@pt@temp=\dimen154
 )
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basicla
 yer\pgfcorequick.code.tex"
@@ -773,13 +755,13 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basicla
 yer\pgfcorearrows.code.tex"
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen163
+\pgfarrowsep=\dimen155
 )
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basicla
 yer\pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen164
-\pgf@sys@shading@range@num=\count324
+\pgf@max=\dimen156
+\pgf@sys@shading@range@num=\count321
 )
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basicla
 yer\pgfcoreimage.code.tex"
@@ -814,8 +796,8 @@ File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibi
 lity\pgfcomp-version-0-65.sty"
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen165
-\pgf@nodesepend=\dimen166
+\pgf@nodesepstart=\dimen157
+\pgf@nodesepend=\dimen158
 )
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibi
 lity\pgfcomp-version-1-18.sty"
@@ -837,10 +819,10 @@ Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pg
 fmath.code.tex")
-\pgffor@iter=\dimen167
-\pgffor@skip=\dimen168
-\pgffor@stack=\toks35
-\pgffor@toks=\toks36
+\pgffor@iter=\dimen159
+\pgffor@skip=\dimen160
+\pgffor@stack=\toks34
+\pgffor@toks=\toks35
 ))
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\fronten
 dlayer\tikz\tikz.code.tex"
@@ -849,32 +831,32 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\librari
 es\pgflibraryplothandlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count325
-\pgfplotmarksize=\dimen169
+\pgf@plot@mark@count=\count322
+\pgfplotmarksize=\dimen161
 )
-\tikz@lastx=\dimen170
-\tikz@lasty=\dimen171
-\tikz@lastxsaved=\dimen172
-\tikz@lastysaved=\dimen173
-\tikzleveldistance=\dimen174
-\tikzsiblingdistance=\dimen175
+\tikz@lastx=\dimen162
+\tikz@lasty=\dimen163
+\tikz@lastxsaved=\dimen164
+\tikz@lastysaved=\dimen165
+\tikzleveldistance=\dimen166
+\tikzsiblingdistance=\dimen167
 \tikz@figbox=\box40
 \tikz@figbox@bg=\box41
 \tikz@tempbox=\box42
 \tikz@tempbox@bg=\box43
-\tikztreelevel=\count326
-\tikznumberofchildren=\count327
-\tikznumberofcurrentchild=\count328
-\tikz@fig@count=\count329
+\tikztreelevel=\count323
+\tikznumberofchildren=\count324
+\tikznumberofcurrentchild=\count325
+\tikz@fig@count=\count326
 
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules
 \pgfmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count330
-\pgfmatrixcurrentcolumn=\count331
-\pgf@matrix@numberofcolumns=\count332
+\pgfmatrixcurrentrow=\count327
+\pgfmatrixcurrentcolumn=\count328
+\pgf@matrix@numberofcolumns=\count329
 )
-\tikz@expandcount=\count333
+\tikz@expandcount=\count330
 
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\fronten
 dlayer\tikz\libraries\tikzlibrarytopaths.code.tex"
@@ -887,7 +869,7 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\librari
 es\pgflibraryarrows.code.tex"
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
-\arrowsize=\dimen176
+\arrowsize=\dimen168
 ))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
@@ -900,22 +882,22 @@ File: english.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
 ) (FlyingSquid.aux)
 \openout1 = `FlyingSquid.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
 \AtBeginShipoutBox=\box44
-Package hyperref Info: Link coloring ON on input line 46.
+Package hyperref Info: Link coloring ON on input line 45.
 
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\name
 ref.sty"
@@ -925,11 +907,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 ttitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count334
+\c@section@level=\count331
 )
-LaTeX Info: Redefining \ref on input line 46.
-LaTeX Info: Redefining \pageref on input line 46.
-LaTeX Info: Redefining \nameref on input line 46.
+LaTeX Info: Redefining \ref on input line 45.
+LaTeX Info: Redefining \pageref on input line 45.
+LaTeX Info: Redefining \nameref on input line 45.
  (FlyingSquid.out) (FlyingSquid.out)
 \@outlinefile=\write6
 \openout6 = `FlyingSquid.out'.
@@ -938,17 +920,17 @@ LaTeX Info: Redefining \nameref on input line 46.
 ("C:\Users\Siddhartha\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-p
 df.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count335
-\scratchdimen=\dimen177
+\scratchcounter=\count332
+\scratchdimen=\dimen169
 \scratchbox=\box45
-\nofMPsegments=\count336
-\nofMParguments=\count337
-\everyMPshowfont=\toks37
-\MPscratchCnt=\count338
-\MPscratchDim=\dimen178
-\MPnumerator=\count339
-\makeMPintoPDFobject=\count340
-\everyMPtoPDFconversion=\toks38
+\nofMPsegments=\count333
+\nofMParguments=\count334
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count335
+\MPscratchDim=\dimen170
+\MPnumerator=\count336
+\makeMPintoPDFobject=\count337
+\everyMPtoPDFconversion=\toks37
 )
 Package biblatex Info: No input encoding detected.
 (biblatex)             Assuming 'ascii'.
@@ -959,52 +941,18 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'FlyingSquid.bbl' found.
  (FlyingSquid.bbl)
-Package biblatex Info: Reference section=0 on input line 46.
-Package biblatex Info: Reference segment=0 on input line 46.
-
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: <default>
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(86.72377pt, 440.84746pt, 86.72377pt)
-* v-part:(T,H,B)=(86.72377pt, 621.52245pt, 86.72377pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=440.84746pt
-* \textheight=621.52245pt
-* \oddsidemargin=14.45378pt
-* \evensidemargin=14.45378pt
-* \topmargin=-22.54622pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=10.0pt
-* \footskip=30.0pt
-* \marginparwidth=65.0pt
-* \marginparsep=11.0pt
-* \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-\c@lstlisting=\count341
-ABD: EveryShipout initializing macros (FlyingSquid.toc)
+Package biblatex Info: Reference section=0 on input line 45.
+Package biblatex Info: Reference segment=0 on input line 45.
+\c@lstlisting=\count338
+ ABD: EveryShipout initializing macros (FlyingSquid.toc)
 \tf@toc=\write7
 \openout7 = `FlyingSquid.toc'.
 
- [1
 
-{C:/Users/Siddhartha/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (Backg
-round.tex
+[1
+
+{C:/Users/Siddhartha/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+(Background.tex
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ˜ in font cmr10!
@@ -1017,125 +965,143 @@ File: images/TraditionalArch.jpg Graphic file (type jpg)
 
 <use images/TraditionalArch.jpg>
 Package pdftex.def Info: images/TraditionalArch.jpg used on input line 8.
-(pdftex.def)             Requested size: 284.52756pt x 226.53905pt.
+(pdftex.def)             Requested size: 345.0pt x 274.68791pt.
  [2pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.24 
+l.14 
       <./images/TraditionalArch.jpg>]) (CloudCaching.tex
-<images/FlyingSquidArch.png, id=115, 559.33969pt x 394.47375pt>
+<images/FlyingSquidArch.png, id=114, 559.33969pt x 394.47375pt>
 File: images/FlyingSquidArch.png Graphic file (type png)
 
 <use images/FlyingSquidArch.png>
 Package pdftex.def Info: images/FlyingSquidArch.png used on input line 5.
-(pdftex.def)             Requested size: 284.52756pt x 200.66731pt.
-) (Rabin.tex
+(pdftex.def)             Requested size: 345.0pt x 243.3192pt.
+ [3]) (Rabin.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-[3pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
+[4pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.19         /*
-                Server name and port number*/ <./images/FlyingSquidArch.png>]
-[4] <images/HaskellGraph.png, id=183, 602.25pt x 372.39125pt>
+l.15 \begin{lstlisting}
+                        <./images/FlyingSquidArch.png>] [5]
+Overfull \hbox (0.90648pt too wide) in paragraph at lines 75--77
+[]\OT1/cmr/m/n/10 Server-side files are split into blocks of max-i-mum size $1\
+OML/cmm/m/it/10 KB$ \OT1/cmr/m/n/10 us-ing a []\OT1/cmtt/m/n/10 djb-2\OT1/cmr/m
+/n/10 [[][]3[][]]
+ []
+
+<images/HaskellGraph.png, id=180, 602.25pt x 372.39125pt>
 File: images/HaskellGraph.png Graphic file (type png)
 
 <use images/HaskellGraph.png>
 Package pdftex.def Info: images/HaskellGraph.png used on input line 97.
-(pdftex.def)             Requested size: 440.84746pt x 272.59908pt.
-
-<images/HTMLGraph.png, id=184, 602.25pt x 372.39125pt>
+(pdftex.def)             Requested size: 345.0pt x 213.33347pt.
+ [6]
+<images/HTMLGraph.png, id=197, 602.25pt x 372.39125pt>
 File: images/HTMLGraph.png Graphic file (type png)
 
 <use images/HTMLGraph.png>
 Package pdftex.def Info: images/HTMLGraph.png used on input line 104.
-(pdftex.def)             Requested size: 440.84746pt x 272.59908pt.
- [5pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
+(pdftex.def)             Requested size: 345.0pt x 213.33347pt.
+ [7pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.107 \noindent
                 <./images/HaskellGraph.png>]
-<images/CGraph.png, id=196, 602.25pt x 372.39125pt>
+<images/CGraph.png, id=205, 602.25pt x 372.39125pt>
 File: images/CGraph.png Graphic file (type png)
  <use images/CGraph.png>
 Package pdftex.def Info: images/CGraph.png used on input line 111.
-(pdftex.def)             Requested size: 440.84746pt x 272.59908pt.
+(pdftex.def)             Requested size: 345.0pt x 213.33347pt.
 
-[6pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) 
+[8pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.114 \noindent
-                <./images/HTMLGraph.png>]
-<images/AllGraph.png, id=203, 602.25pt x 372.39125pt>
+l.116 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.116 
+       <./images/HTMLGraph.png> <./images/CGraph.png>]
+<images/AllGraph.png, id=214, 602.25pt x 372.39125pt>
 File: images/AllGraph.png Graphic file (type png)
 
 <use images/AllGraph.png>
 Package pdftex.def Info: images/AllGraph.png used on input line 119.
-(pdftex.def)             Requested size: 440.84746pt x 272.59908pt.
- [7pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.122 \noindent
-                <./images/CGraph.png>]) (Conclusion.tex
-<images/Benchmarking1.png, id=211, 499.56638pt x 307.1475pt>
+(pdftex.def)             Requested size: 345.0pt x 213.33347pt.
+) (Conclusion.tex
+<images/Benchmarking1.png, id=215, 499.56638pt x 307.1475pt>
 File: images/Benchmarking1.png Graphic file (type png)
 
 <use images/Benchmarking1.png>
-Package pdftex.def Info: images/Benchmarking1.png used on input line 10.
+Package pdftex.def Info: images/Benchmarking1.png used on input line 6.
 (pdftex.def)             Requested size: 341.43306pt x 209.9214pt.
- [8pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
+ [9pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.13 
-      <./images/AllGraph.png>]
+l.9 
+     <./images/AllGraph.png>]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-) [9pdfTeX warning (ext4): destination with the same identifier (name{figure.7}
+ [10pdfTeX warning (ext4): destination with the same identifier (name{figure.7}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.64 
-      <./images/Benchmarking1.png>] [10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 65.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 65.
+l.20 
+      <./images/Benchmarking1.png>])
+Overfull \hbox (9.74832pt too wide) in paragraph at lines 63--63
+$\OT1/cmtt/m/n/10 index . en . html # what -[] is -[] apache -[] traffic -[] se
+rver$[][] \OT1/cmr/m/n/10 (vis-ited on 04/12/2016). 
+ []
+
+
+Overfull \hbox (2.80153pt too wide) in paragraph at lines 63--63
+\OT1/cmr/m/it/10 Pro-ceed-ings of the 12th in-ter-na-tional con-fer-ence on Wor
+ld Wide Web \OT1/cmr/m/n/10 (2003),
+ []
+
+[11]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 64.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 64.
  (FlyingSquid.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 65.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 65.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 64.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 64.
 Package rerunfilecheck Info: File `FlyingSquid.out' has not changed.
-(rerunfilecheck)             Checksum: CBE6562DB4767B40AEAF117940F5E329;909.
+(rerunfilecheck)             Checksum: AED86C80AC8447080A685A777F70185A;877.
 Package logreq Info: Writing requests to 'FlyingSquid.run.xml'.
 \openout1 = `FlyingSquid.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 65.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 64.
  )
-(\end occurred when \iftrue on line 46 was incomplete) 
+(\end occurred when \iftrue on line 45 was incomplete) 
 Here is how much of TeX's memory you used:
- 23667 strings out of 493634
- 438176 string characters out of 3133199
- 693849 words of memory out of 3000000
- 26607 multiletter control sequences out of 15000+200000
+ 23232 strings out of 493634
+ 431630 string characters out of 3133199
+ 683369 words of memory out of 3000000
+ 26177 multiletter control sequences out of 15000+200000
  10611 words of font info for 39 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 55i,6n,58p,939b,1855s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,6n,58p,939b,1127s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Siddhartha/AppD
 ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Use
 rs/Siddhartha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
@@ -1151,9 +1117,9 @@ ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Siddhartha/Ap
 pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/U
 sers/Siddhartha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmtt9.pfb>
-Output written on FlyingSquid.pdf (10 pages, 466286 bytes).
+Output written on FlyingSquid.pdf (11 pages, 469567 bytes).
 PDF statistics:
- 289 PDF objects out of 1000 (max. 8388607)
- 90 named destinations out of 1000 (max. 500000)
+ 295 PDF objects out of 1000 (max. 8388607)
+ 91 named destinations out of 1000 (max. 500000)
  168 words of extra memory for PDF output out of 10000 (max. 10000000)
 
