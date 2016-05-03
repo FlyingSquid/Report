@@ -35,8 +35,22 @@ git clone https://github.com/FlyingSquid/clientInterfacing.git
 
 \item Use the Google Chrome browser to access http://localhost:5103. 
 
-
 \end{enumerate}
+
+\paragraph{Debugging}
+
+The application can also be opened on MAC OSX in the terminal via the following commands:
+
+\begin{lstlisting} [language=bash]
+mkdir ~/Desktop/testtest
+
+cd /Applications/Google Chrome.app/Contents/MacOS
+
+./Google\ Chrome http://localhost:5103/part1 --enable-logging --v=1 --user-data-dir=~/Desktop/testtest
+\end{lstlisting}
+
+This will enable logging to appear, making it easier for future developers to debug the Native Client module.
+
 
 \paragraph{Challenges}
 
