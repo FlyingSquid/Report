@@ -1,29 +1,45 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Background}{2}{section.1}
+\contentsline {section}{\numberline {1}Background}{3}{section.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Flying Squid}{3}{section.2}
+\contentsline {section}{\numberline {2}Flying Squid}{4}{section.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Apache Traffic Server}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.1}Apache Traffic Server}{4}{subsection.2.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Cloud Caching}{5}{section.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Fingerprinting: Value Based Caching}{5}{section.4}
+\contentsline {subsection}{\numberline {3.1}Augmented Tier - Redis Cluster}{6}{subsection.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}The API}{6}{subsection.4.1}
+\contentsline {subsection}{\numberline {3.2}Storage Tier - AWS Simple Storage Service}{6}{subsection.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.1}Client}{6}{subsubsection.4.1.1}
+\contentsline {subsection}{\numberline {3.3}Storage Tier - AWS Cloudfront}{6}{subsection.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.2}Server}{6}{subsubsection.4.1.2}
+\contentsline {section}{\numberline {4}Fingerprinting: Value Based Caching}{6}{section.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Technical Approach}{7}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.1}The API}{7}{subsection.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Statistics}{7}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.1.1}Client}{7}{subsubsection.4.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4}Example: Integration}{11}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.1.2}Server}{7}{subsubsection.4.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Open Source Component}{11}{section.5}
+\contentsline {subsection}{\numberline {4.2}Technical Approach}{8}{subsection.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Further Work}{12}{section.6}
+\contentsline {subsection}{\numberline {4.3}Statistics}{8}{subsection.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Conclusion}{12}{section.7}
+\contentsline {subsection}{\numberline {4.4}Example: Integration}{12}{subsection.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Open Source Component}{12}{section.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Further Work}{13}{section.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A}User Manual}{14}{Appendix.a.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1}ATS with Cloud Caching}{14}{subsection.a.A.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.2}Value-Based Caching Integration}{14}{subsection.a.A.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B}Better Integration: Google Native Client}{14}{Appendix.a.B}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Idea}{14}{section*.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Setting up Native Client}{14}{section*.3}

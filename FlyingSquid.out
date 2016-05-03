@@ -2,13 +2,19 @@
 \BOOKMARK [1][-]{section.2}{Flying Squid}{}% 2
 \BOOKMARK [2][-]{subsection.2.1}{Apache Traffic Server}{section.2}% 3
 \BOOKMARK [1][-]{section.3}{Cloud Caching}{}% 4
-\BOOKMARK [1][-]{section.4}{Fingerprinting: Value Based Caching}{}% 5
-\BOOKMARK [2][-]{subsection.4.1}{The API}{section.4}% 6
-\BOOKMARK [3][-]{subsubsection.4.1.1}{Client}{subsection.4.1}% 7
-\BOOKMARK [3][-]{subsubsection.4.1.2}{Server}{subsection.4.1}% 8
-\BOOKMARK [2][-]{subsection.4.2}{Technical Approach}{section.4}% 9
-\BOOKMARK [2][-]{subsection.4.3}{Statistics}{section.4}% 10
-\BOOKMARK [2][-]{subsection.4.4}{Example: Integration}{section.4}% 11
-\BOOKMARK [1][-]{section.5}{Open Source Component}{}% 12
-\BOOKMARK [1][-]{section.6}{Further Work}{}% 13
-\BOOKMARK [1][-]{section.7}{Conclusion}{}% 14
+\BOOKMARK [2][-]{subsection.3.1}{Augmented Tier - Redis Cluster}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.2}{Storage Tier - AWS Simple Storage Service}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.3}{Storage Tier - AWS Cloudfront}{section.3}% 7
+\BOOKMARK [1][-]{section.4}{Fingerprinting: Value Based Caching}{}% 8
+\BOOKMARK [2][-]{subsection.4.1}{The API}{section.4}% 9
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Client}{subsection.4.1}% 10
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Server}{subsection.4.1}% 11
+\BOOKMARK [2][-]{subsection.4.2}{Technical Approach}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.3}{Statistics}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.4}{Example: Integration}{section.4}% 14
+\BOOKMARK [1][-]{section.5}{Open Source Component}{}% 15
+\BOOKMARK [1][-]{section.6}{Further Work}{}% 16
+\BOOKMARK [1][-]{Appendix.a.A}{User Manual}{}% 17
+\BOOKMARK [2][-]{subsection.a.A.1}{ATS with Cloud Caching}{Appendix.a.A}% 18
+\BOOKMARK [2][-]{subsection.a.A.2}{Value-Based Caching Integration}{Appendix.a.A}% 19
+\BOOKMARK [1][-]{Appendix.a.B}{Better Integration: Google Native Client}{}% 20
