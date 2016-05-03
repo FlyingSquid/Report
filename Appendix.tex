@@ -8,52 +8,44 @@
 
 The idea behind using Google Native Client is simply to eliminate the browser's interfacing layer. With Google Native Client, the browser can run C++ code in the browser. This way, the request does not have to pass through the TCP proxy interfacing layer and can go straight to ATS. Not only would this make Flying Squid more secure and portable, but it would also bring huge performance benefits.
 
-Javascript, HTML, CSS
+In a web application, Google Native Client is embedded within the HTML through the use of an <embed> tag. The JavaScript and Google Native Client modules talk to each other via bidirectional, asynchronous messages.
 
 \paragraph{Setting up Native Client}
 
-Before Native Client can be set up, Python 2.7 and Make need to be available on the machine. Once these executables are available, the Native Client executable can be downloaded at the following website: https://developer.chrome.com/native-client/sdk/download. Then perform the following steps:
+Before Native Client can be set up, Python 2.7 and Make need to be available on the machine. Once these executables are available, the Native Client executable can be downloaded at the following website: https://developer.chrome.com/native-client/sdk/download. A Hello World Tutorial is also available at https://developer.chrome.com/native-client/devguide/tutorial/tutorial-part1.
+
+For our purposes, however, perform the following steps to get up to speed:
 
 \begin{enumerate} 
-\item Unzip the SDK zip. On Mac/Linux the command is:
+\item Clone the clientInterfacing directory. The command is 
 
 \begin{lstlisting} [language=bash] 
-unzip nacl_sdk.zip
+git clone https://github.com/FlyingSquid/clientInterfacing.git
 \end{lstlisting}
 
-On Windows, right-click on the .zip file and click \lq Extract All... \rq
+\item  Make sure your Google Chrome browser is version 49 or higher.
 
-\item  Update the Native Client bundles. On Mac/Linux, the command is:
+\item Change into the directory nacl_sdk/pepper_49/getting_started/part1.
 
-\begin{lstlisting} [language=bash] 
-./naclsdk update
-\end{lstlisting}
+\item Execute \lq make \rq .
 
-On Windows, the command is:
+\item Change into the directory nacl_sdk/pepper_49/getting_started.
 
-\begin{lstlisting} [language=bash] 
-naclsdk update
-\end{lstlisting}
+\item Execute \lq make serve \rq .
 
-\item Start the local server. Perform the following commands:
+\item Use the Google Chrome browser to access http://localhost:5103. 
 
-\begin{lstlisting} [language=bash] 
-cd pepper_${VERSION}/getting_started
-make serve
-\end{lstlisting}
-
-\item Access the application at:
-
-\begin{verbatim}
-http://localhost:5103
-\end{verbatim}
 
 \end{enumerate}
 
-That's all that's required to set up a barebones version of the Native Client. To get an example up and running, please see the Hello World tutorial at: https://developer.chrome.com/native-client/devguide/tutorial/tutorial-part1.
-
 \paragraph{Challenges}
 
-Unfortunately, there were several roadblocks that prevented Google Native Client from being a viable option for Flying squid at the moment. First and foremost, 
+Unfortunately, there were a few roadblocks that prevented Google Native Client from being a viable option for Flying squid at the moment. The roadblocks are listed below and are left for future developers to tackle.
+
+\begin{enumerate}
+
+\item Google Native Client cannot be compiled with g++ and the -std=c++0x flag, both of which are required to compile the Rabin Client and Rabin Server correctly. 
+
+\item Google Native Client cannot access the local filesystem of the machine that it is running on. It can only simulate a File I/O API using a ocal secure data store. This File I/O API is described here: https://developer.chrome.com/native-client/devguide/coding/file-io. Further documentation of implementations of standard POSIX I/O functions such as fopen, fseek, fread, fwirte, and fclose are described here: https://developer.chrome.com/native-client/devguide/coding/nacl_io.
 
 \end{appendices}
