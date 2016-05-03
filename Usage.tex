@@ -2,4 +2,49 @@
 
 \subsection{ATS with Cloud Caching}
 
+
+
 \subsection{Value-Based Caching Integration}
+
+To run Flying Squid, run the following commands in the following order:
+
+\begin{enumerate}
+
+\item 
+
+\begin{lstlisting} [language=bash] 
+sudo /opt/ts/bin/trafficserver start
+\end{lstlisting}
+
+ATS will be running on port 8080.
+
+\item 
+
+Set Google chrome or Mozilla Firefox to point to the port that the TCP Proxy Client (Browser's Interfacing Layer) will run on. 
+
+\item 
+
+Start up the TCP Proxy Server (ATS's Interfacing Layer):
+
+\begin{lstlisting} [language=bash] 
+cd $(RABIN_FINGERPRINT_DIR)\Integration\tcpproxy
+tcpproxy_server 127.0.0.1 <tcpproxy_server port> 127.0.0.1 8080
+\end{lstlisting}
+
+\item
+
+Start up the TCP Proxy Client (Browser's Interfacing Layer):
+
+\begin{lstlisting} [language=bash] 
+cd $(RABIN_FINGERPRINT_DIR)\Integration\tcpclient
+tcpproxy_client 127.0.0.1 <tcpproxy_client port> 127.0.0.1 <tcpproxy_server port>
+\end{lstlisting}
+
+\item
+
+Open the browser that is pointing to the TCP Proxy Client and make request to a website, e.g. http://www.cs.tufts.edu
+
+
+
+
+\end{enumerate}
