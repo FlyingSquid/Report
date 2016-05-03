@@ -28,7 +28,7 @@ Start up the TCP Proxy Server (ATS's Interfacing Layer) in another terminal:
 
 \begin{lstlisting} [language=bash] 
 cd $(RABIN_FINGERPRINT_DIR)/Integration/tcpproxy
-tcpproxy_server 127.0.0.1 <tcpproxy_server port> 127.0.0.1 8080
+tcpproxy_server <local host ip> <tcpproxy_server port> <local host ip> 8080
 \end{lstlisting}
 
 \item
@@ -37,7 +37,7 @@ Start up the TCP Proxy Client (Browser's Interfacing Layer) in another terminal:
 
 \begin{lstlisting} [language=bash] 
 cd $(RABIN_FINGERPRINT_DIR)/Integration/tcpclient.
-tcpproxy_client 127.0.0.1 <tcpproxy_client port> 127.0.0.1 <tcpproxy_server port>
+tcpproxy_client <local host ip> <tcpproxy_client port> <local host ip> <tcpproxy_server port>
 \end{lstlisting}
 
 \item
