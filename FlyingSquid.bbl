@@ -26,6 +26,24 @@
   \field{urlyear}{2016}
 \endentry
 
+\entry{Partow}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Partow}{P.}%
+     {Arash}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PA1}
+  \strng{fullhash}{PA1}
+  \field{sortinit}{P}
+  \field{title}{C++ TCP Proxy Server}
+  \verb{url}
+  \verb http://www.partow.net/programming/tcpproxy/index.html
+  \endverb
+  \warn{\item Invalid format of field 'urldate'}
+\endentry
+
 \entry{Rhea09}{article}{}
   \name{author}{1}{}{%
     {{}%

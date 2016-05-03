@@ -14,6 +14,8 @@ In Figure 1 we can see a simple representation of the traditional role proxies h
 
 
 
+
+
 \section{Flying Squid}
 
 \subsection{Apache Traffic Server}
@@ -21,6 +23,11 @@ In Figure 1 we can see a simple representation of the traditional role proxies h
 Apache Traffic Server (ATS) is a high-performance open-source proxy that was built by Inktomi and Yahoo!. It is modular in nature, and is known for its efficient caching mechanisms. According to the ATS documentation, it \lq \lq is designed to improve content delivery for enterprises, Internet service providers (ISPs), backbone providers, and large intranets by maximizing existing and available bandwidth \rq \rq \cite{ATS}.
 
 Flying Squid is an Apache Traffic Server augmentation that can provide a distributed, cloud based cache localized at the edge of the network. The system utilizes custom caching techniques and protocols to reduce uneccesary bandwidth use. Thus, it provides faster data delivery than content providers by themselves. 
+
+\begin{figure}[H] \centering
+\includegraphics[width=\textwidth]{FlyingSquidArch}
+\caption{Flying Squid Architecture}
+\end{figure}
 
 
 Flying Squid aims to be a truly web-based personal proxy, with shared cloud based caches and value-based storage and transfer protocols. By improving content delivery speed and reducing client data usage, the proxy is especially useful to mobile users and those with spotty network connectivity.

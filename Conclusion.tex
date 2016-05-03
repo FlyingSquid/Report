@@ -1,15 +1,11 @@
-\section{Benchmarking}
-
-The Flying Squid  benchmarking infrastructure involves using ApacheBench to time file downloads through ATS with caching turned on running on an AWS EC2 instance. We hosted test files of specific sizes on our public Github organization repository.
-
-\begin{figure}[H] \centering
-\includegraphics[width=12cm]{Benchmarking1}
-\caption{Initial Benchmarks: File size vs mean service time while using standard ATS}
-\end{figure}
 
 \section{Open Source Component}
 
-We have been working with an open source fork of ATS hosted in our GitHub organization. The modifications we have made to ATS will hopefully be proposed as pull requests we can make to the main project. Several of our contributions have been placed directly in the ATS codebase. Thus, all modifications are open source contributions that we hope to be approved as part of the main Traffic Server codebase. Our GitHub repository can be found at \url{https://github.com/FlyingSquid/}.
+We have been working with an open source fork of ATS hosted in our GitHub organization. The modifications we have made to ATS will hopefully be proposed as pull requests we can make to the main project. Several of our contributions have been placed directly in the ATS codebase. Thus, all modifications are open source contributions that we hope to be approved as part of the main Traffic Server codebase. 
+
+The \lq Rabin \rq fingerprinting component of the project is also open source. It functions ias a standalone module that can be easily included in C++ code bases.
+
+All of our GitHub repositories can be found at \url{https://github.com/FlyingSquid/}.
 
 \section{Further Work}
 

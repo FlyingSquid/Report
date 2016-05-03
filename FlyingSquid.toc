@@ -6,26 +6,24 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1}Apache Traffic Server}{3}{subsection.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Cloud Caching}{4}{section.3}
+\contentsline {section}{\numberline {3}Cloud Caching}{5}{section.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Fingerprinting: Value Based Caching}{4}{section.4}
+\contentsline {section}{\numberline {4}Fingerprinting: Value Based Caching}{5}{section.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}The API}{4}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.1}The API}{6}{subsection.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.1}Client}{5}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Client}{6}{subsubsection.4.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.2}Server}{5}{subsubsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.2}Server}{6}{subsubsection.4.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Technical Approach}{6}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.2}Technical Approach}{7}{subsection.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Statistics}{6}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.3}Statistics}{7}{subsection.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4}Example: Integration}{9}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.4}Example: Integration}{11}{subsection.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Benchmarking}{9}{section.5}
+\contentsline {section}{\numberline {5}Open Source Component}{11}{section.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Open Source Component}{10}{section.6}
+\contentsline {section}{\numberline {6}Further Work}{12}{section.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Further Work}{10}{section.7}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Conclusion}{11}{section.8}
+\contentsline {section}{\numberline {7}Conclusion}{12}{section.7}
