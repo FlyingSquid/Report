@@ -22,11 +22,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.1.2}Server}{7}{subsubsection.4.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Technical Approach}{8}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.2}Integrating Value-Based Caching}{8}{subsection.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Statistics}{8}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.3}Technical Approach}{9}{subsection.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4}Example: Integration}{12}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.4}Statistics}{9}{subsection.4.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5}Open Source Component}{12}{section.5}
 \defcounter {refsection}{0}\relax 

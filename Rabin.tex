@@ -66,14 +66,16 @@ class RabinServer
 
 \end{lstlisting}
 
-\subsection{Example: Integration}
+\subsection{Integrating Value-Based Caching}
+
+Flying Squid uses modified TCP forwarding servers \cite{Partow} at both the client and server sides to interface value-based caching with ATS.
 
 \begin{figure}[H] \centering
-\includegraphics[width=\textwidth]{FingerprintingArch}
+\includegraphics[width=9cm]{FingerprintingArch}
 \caption{Flying Squid Value Based Caching Architecture}
 \end{figure}
 
-Flying Squid uses a modified TCP forwarding servers \cite{Partow} to interface with ATS. When the user makes a request through the browser, the browser forwards the request through its interfacing layer to the interfacing layer of ATS. ATS receives this request and gathers the requested data file from the Internet and the cloud caching mechanism previously described. ATS then sends over the file to the Rabin Server, which breaks down the file into blocks. The Rabin Server sends each block to the Rabin Client, which reassembles the blocks into a file. The Rabin Client then sends the response to the browser through the browser's interfacing layer. Lastly, the browser displays the response to the user. 
+ When the user makes a request through the browser, the browser forwards the request through its interfacing layer to the interfacing layer of ATS. ATS receives this request and gathers the requested data file from the Internet and the cloud caching mechanism previously described. ATS then sends over the file to the Rabin Server, which breaks down the file into blocks. The Rabin Server sends each block to the Rabin Client, which reassembles the blocks into a file. The Rabin Client then sends the response to the browser through the browser's interfacing layer. Lastly, the browser displays the response to the user. 
 
 \subsection{Technical Approach}
 
