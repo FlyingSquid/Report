@@ -24,27 +24,46 @@ Set Google chrome or Mozilla Firefox to point to the port that the TCP Proxy Cli
 
 \item 
 
-Start up the TCP Proxy Server (ATS's Interfacing Layer):
+Start up the TCP Proxy Server (ATS's Interfacing Layer) in another terminal:
 
 \begin{lstlisting} [language=bash] 
-cd $(RABIN_FINGERPRINT_DIR)\Integration\tcpproxy
+cd $(RABIN_FINGERPRINT_DIR)/Integration/tcpproxy
 tcpproxy_server 127.0.0.1 <tcpproxy_server port> 127.0.0.1 8080
 \end{lstlisting}
 
 \item
 
-Start up the TCP Proxy Client (Browser's Interfacing Layer):
+Start up the TCP Proxy Client (Browser's Interfacing Layer) in another terminal:
 
 \begin{lstlisting} [language=bash] 
-cd $(RABIN_FINGERPRINT_DIR)\Integration\tcpclient
+cd $(RABIN_FINGERPRINT_DIR)/Integration/tcpclient.
 tcpproxy_client 127.0.0.1 <tcpproxy_client port> 127.0.0.1 <tcpproxy_server port>
 \end{lstlisting}
 
 \item
 
-Open the browser that is pointing to the TCP Proxy Client and make request to a website, e.g. http://www.cs.tufts.edu
+Open the browser that is pointing to the TCP Proxy Client and make request to a website, e.g. http://www.cs.tufts.edu.
 
+\end{enumerate}
 
+\subsection{Rabin Fingerprinting Demo}
 
+\begin{enumerate}
+
+\item 
+
+Start up the Rabin Fingerprinting Server:
+
+\begin{lstlisting} [language=bash] 
+cd $(RABIN_FINGERPRINT_DIR)/Server
+./rabinserver <Rabin Server port> ../Files/HTML/CSWebpage.html ../Files/HTML/CSWebpageWithoutHead.html
+\end{lstlisting}
+
+\item Start up the Rabin Fingerprinting Client in another terminal:
+
+\begin{lstlisting} [language=bash] 
+cd $(RABIN_FINGERPRINT_DIR)/Client
+./rabinclient localhost <Rabin Server port> test.html
+\end{lstlisting}
 
 \end{enumerate}
