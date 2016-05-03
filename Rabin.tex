@@ -66,6 +66,15 @@ class RabinServer
 
 \end{lstlisting}
 
+\subsection{Example: Integration}
+
+\begin{figure}[H] \centering
+\includegraphics[width=\textwidth]{FingerprintingArch}
+\caption{Flying Squid Value Based Caching Architecture}
+\end{figure}
+
+Flying Squid uses a modified TCP forwarding servers \cite{Partow} to interface with ATS. When the user makes a request through the browser, the browser forwards the request through its interfacing layer to the interfacing layer of ATS. ATS receives this request and gathers the requested data file from the Internet and the cloud caching mechanism previously described. ATS then sends over the file to the Rabin Server, which breaks down the file into blocks. The Rabin Server sends each block to the Rabin Client, which reassembles the blocks into a file. The Rabin Client then sends the response to the browser through the browser's interfacing layer. Lastly, the browser displays the response to the user. 
+
 \subsection{Technical Approach}
 
 Flying Squid's Rabin Fingerprinting library provides a clean file transfer abstraction to the user, hiding the intricacies of a partial file transfer abstraction.
@@ -121,12 +130,3 @@ For files differing by a large number of chunks distributed through the file, sm
 \end{figure}
 \noindent
 Taking the average of all these files, it was found that a minimal amount was resent around a maximum block size of $1 KB$. As a result, the maximum value chosen was $1024$ bytes, with an expected max size of $512$ bytes.
-
-\subsection{Example: Integration}
-
-\begin{figure}[H] \centering
-\includegraphics[width=\textwidth]{FingerprintingArch}
-\caption{Flying Squid Value Based Caching Architecture}
-\end{figure}
-
-This uses a modified TCP forwarding server as interfacing layers \cite{Partow}.
