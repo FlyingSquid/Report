@@ -16,6 +16,7 @@ All of our GitHub repositories can be found at \url{https://github.com/FlyingSqu
 \noindent
 The ATS project dates back to 2009, when Yahoo! released the source code to the Apache software foundation. The result is a large code base on GitHub that gets updated constantly. The biggest challenge we faced throughout the project was understanding the code base, in which project components invoke and pass data to one another by registering event handlers. In addition, the session nature of operations in ATS means that data are not always readily available and do not persist once a session expires. \\
 
+\noindent
 The cloud caching module of FlyingSquid was fully integrated into the ATS code base. Because the caching and the HTTP request/response handling modules are well-encapsulated in their respective classes, and the cloud caching module requires data across the abstraction barrier, we had to implement parts of the FlyingSquid in the HTTP module and others in the caching module.\\ 
 
 \section{Further Work}
