@@ -13,7 +13,7 @@ FlyingSquid uses a Redis in-memory key/value store to save HTTP object metadata.
 \newpage
 
 \noindent
-FlyingSquid uses the ATS computed cache key hash for each object as the key to store metatadata under and serialize the struct below to a string to store it in Redis.
+FlyingSquid uses the ATS computed cache key hash for each object as the key to store metatadata under and serialize the struct below to a string to store it in Redis.\\
 
 \begin{lstlisting}
 struct ObjectCacheMeta {
@@ -32,4 +32,4 @@ Whenever we do a cache write we insert or update this object metadata. When we d
 FlyingSquid utilizes Amazon S3 public cloud storage as the largest and slowest tier of the cloud cache. An ATS cluster is configured to share storage of HTTP objects in a S3 bucket. When ATS determines that an HTTP object is cacheable the object is uploaded to S3. When a cache read is called for we determine whether an object is in S3 from the Redis object metadata. If so, we simply retrieve it, collect the header from Redis, and send it back to the client.
 
 \subsection{Storage Tier - AWS Cloudfront}
-
+CloudFront is Amazon's Content Delivery Network service which can be utilized to push content to Amazon's servers at the edge of the network. FlyingSquid uses it to speed up object delivery to the client. When an object in the cache is deemed to be popular we set a field in its S3 metadata to push it to CloudFront. This field is equivalent to the HTTP \lq Expires \rq header and determines the lifetime of the object in this highest cache tier. When an object in CloudFront is requested by the client, an HTTP redirect is used to serve the response.
