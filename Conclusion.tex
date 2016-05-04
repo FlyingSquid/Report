@@ -5,15 +5,22 @@
 We have been working with an open source fork of ATS hosted in our GitHub organization. The modifications we have made to ATS will hopefully be proposed as pull requests we can make to the main project. Several of our contributions have been placed directly in the ATS codebase. Thus, all modifications are open source contributions that we hope to be approved as part of the main Traffic Server codebase. \\
 
 \noindent
-The \lq Rabin \rq fingerprinting component of the project is also open source. It functions ias a standalone module that can be easily included in C++ code bases.\\
+The \lq Rabin \rq fingerprinting component of the project is also open source. It functions is a standalone module that can be easily included in C++ code bases.\\
 
 \noindent
 All of our GitHub repositories can be found at \url{https://github.com/FlyingSquid/}.
 
+\section{Issues and Challenges}
+
+\noindent
+The ATS project dates back to 2009, when Yahoo! released the source code to the Apache software foundation. The result is a large code base on GitHub that gets updated constantly. The biggest challenge we faced throughout the project was understanding the code base, in which project components invoke and pass data to one another by registering event handlers. In addition, the session nature of operations in ATS means that data are not always readily available and do not persist once a session expires. \\
+
+The cloud caching module of FlyingSquid was fully integrated into the ATS code base. Because the caching and the HTTP request/response handling modules are well-encapsulated in their respective classes, and the cloud caching module requires data across the abstraction barrier, we had to implement parts of the FlyingSquid in the HTTP module and others in the caching module.\\ 
+
 \section{Further Work}
 
 \noindent
-A lot of work needs to be done to make Flying Squid a production level proxy system. The proxy is only as strong as its weakest link. The integration of cloud caches, ATS and fingerprinting systems could be further streamlined. Better integration would involve more robust browser-side clients, and the elimination of redundant actions within ATS. Value based caching could be made more flexible, with adjustable block sizes and less persistent TCP connections. More benchmark and bandwidth analysis could help better understand the strengths and weaknesses of Flying Squid. Eventually, this analysis would provide grounds for interesting research.\\
+A lot of work needs to be done to make FlyingSquid a production level proxy. The proxy is only as strong as its weakest link. The integration of cloud caches, ATS and fingerprinting systems could be further streamlined. Better integration would involve more robust browser-side clients, and the elimination of redundant actions within ATS. Value based caching could be made more flexible, with adjustable block sizes and less persistent TCP connections. More benchmark and bandwidth analysis could help better understand the strengths and weaknesses of Flying Squid. Eventually, this analysis would provide grounds for interesting research.\\
 
 \noindent
 To accurately measure the effectiveness and relevance of Flying Squid, we must investigate several use cases for our proxy server. We must leverage these use cases to show, with measurable benchmarks, that Flying Squid is indeed an improvement on the proxy status quo. First, there is the use case of a proxy network with multiple nodes to maximize personalized caching for more than just an individual. The custom caching could cater to a corporation, non-profit organization, as well as universities like Tufts. 
