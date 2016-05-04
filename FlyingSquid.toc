@@ -10,36 +10,46 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1}Augmented Tier - Redis Cluster}{6}{subsection.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Storage Tier - AWS Simple Storage Service}{6}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.2}Storage Tier - AWS Simple Storage Service (S3)}{7}{subsection.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Storage Tier - AWS Cloudfront}{6}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.3}Storage Tier - AWS Cloudfront}{7}{subsection.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Fingerprinting: Value Based Caching}{6}{section.4}
+\contentsline {section}{\numberline {4}Fingerprinting: Value Based Caching}{7}{section.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}The API}{7}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.1}The API}{8}{subsection.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.1}Client}{7}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Client}{8}{subsubsection.4.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.2}Server}{7}{subsubsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.2}Server}{8}{subsubsection.4.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Integrating Value-Based Caching}{8}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.2}Integrating Value-Based Caching}{9}{subsection.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Technical Approach}{9}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.3}Technical Approach}{10}{subsection.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4}Statistics}{9}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.4}Statistics}{10}{subsection.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Open Source Component}{12}{section.5}
+\contentsline {section}{\numberline {5}Open Source Component}{13}{section.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Further Work}{13}{section.6}
+\contentsline {section}{\numberline {6}Issues and Challenges}{14}{section.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A}User Manual}{14}{Appendix.a.A}
+\contentsline {section}{\numberline {7}Further Work}{14}{section.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1}ATS with Cloud Caching}{14}{subsection.a.A.1}
+\contentsline {section}{\numberline {A}User Manual}{15}{Appendix.a.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2}Value-Based Caching Integration}{14}{subsection.a.A.2}
+\contentsline {subsection}{\numberline {A.1}Apache Traffic Server}{15}{subsection.a.A.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B}Better Integration: Google Native Client}{14}{Appendix.a.B}
+\contentsline {subsection}{\numberline {A.2}ATS with Cloud Caching}{15}{subsection.a.A.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Idea}{14}{section*.2}
+\contentsline {subsection}{\numberline {A.3}Value-Based Caching Integration}{15}{subsection.a.A.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Setting up Native Client}{14}{section*.3}
+\contentsline {subsection}{\numberline {A.4}Rabin Fingerprinting Demo}{16}{subsection.a.A.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B}Better Integration: Google Native Client }{16}{Appendix.a.B}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Idea}{16}{section*.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Setting up Native Client}{17}{section*.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Debugging}{17}{section*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Challenges}{17}{section*.5}

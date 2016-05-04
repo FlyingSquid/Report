@@ -2,11 +2,11 @@
 
 \input{Usage.tex}
 
-\section{Better Integration: Google Native Client \cite{Google Native Client}}
+\section{Better Integration: Google Native Client }
 
 \paragraph{Idea}
 
-The idea behind using Google Native Client is simply to eliminate the browser's interfacing layer. With Google Native Client, the browser can run C++ code in the browser. This way, the request does not have to pass through the TCP proxy interfacing layer and can go straight to ATS. Not only would this make Flying Squid more secure and portable, but it would also bring huge performance benefits.
+The idea behind using Google Native Client \cite{GoogleNativeClient} is simply to eliminate the browser's interfacing layer. With Google Native Client, the browser can run C++ code in the browser. This way, the request does not have to pass through the TCP proxy interfacing layer and can go straight to ATS. Not only would this make Flying Squid more secure and portable, but it would also bring huge performance benefits.
 
 In a web application, Google Native Client is embedded within the HTML through the use of an <embed> tag. The JavaScript and Google Native Client modules talk to each other via bidirectional, asynchronous messages.
 
@@ -25,15 +25,15 @@ git clone https://github.com/FlyingSquid/clientInterfacing.git
 
 \item  Make sure your Google Chrome browser is version 49 or higher.
 
-\item Change into the directory nacl_sdk/pepper_49/getting_started/part1.
+\item Change into the directory \verb|nacl_sdk/pepper_49/getting_started/part1|.
 
-\item Execute \lq make \rq .
+\item Execute \verb|make|.
 
-\item Change into the directory nacl_sdk/pepper_49/getting_started.
+\item Change into the directory \verb|nacl_sdk/pepper_49/getting_started|.
 
-\item Execute \lq make serve \rq .
+\item Execute \verb|make serve|.
 
-\item Use the Google Chrome browser to access http://localhost:5103. 
+\item Use the Google Chrome browser to access \verb|http://localhost:5103|. 
 
 \end{enumerate}
 
@@ -60,6 +60,7 @@ Unfortunately, there were a few roadblocks that prevented Google Native Client f
 
 \item Google Native Client cannot be compiled with g++ and the -std=c++0x flag, both of which are required to compile the Rabin Client and Rabin Server correctly. 
 
-\item Google Native Client cannot access the local filesystem of the machine that it is running on. It can only simulate a File I/O API using a ocal secure data store. This File I/O API is described here: https://developer.chrome.com/native-client/devguide/coding/file-io. Further documentation of implementations of standard POSIX I/O functions such as fopen, fseek, fread, fwirte, and fclose are described here: https://developer.chrome.com/native-client/devguide/coding/nacl_io.
+\item Google Native Client cannot access the local filesystem of the machine that it is running on. It can only simulate a File I/O API using a ocal secure data store. This File I/O API is described at  \url{https://developer.chrome.com/native-client/devguide/}coding/file-io. Further documentation of implementations of standard POSIX I/O functions such as fopen, fseek, fread, fwirte, and fclose are described at \url{https://developer.chrome.com/native-client/devguide/coding/nacl_io}.
+\end{enumerate}
 
 \end{appendices}

@@ -26,6 +26,15 @@
   \field{urlyear}{2016}
 \endentry
 
+\entry{GoogleNativeClient}{online}{}
+  \verb{url}
+  \verb https://developer.chrome.com/native-client
+  \endverb
+  \field{urlday}{03}
+  \field{urlmonth}{05}
+  \field{urlyear}{2016}
+\endentry
+
 \entry{Partow}{online}{}
   \name{author}{1}{}{%
     {{}%
@@ -41,7 +50,9 @@
   \verb{url}
   \verb http://www.partow.net/programming/tcpproxy/index.html
   \endverb
-  \warn{\item Invalid format of field 'urldate'}
+  \field{urlday}{03}
+  \field{urlmonth}{05}
+  \field{urlyear}{2016}
 \endentry
 
 \entry{Rhea09}{article}{}
