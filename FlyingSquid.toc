@@ -36,18 +36,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A}User Manual}{15}{Appendix.a.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1}ATS with Cloud Caching}{15}{subsection.a.A.1}
+\contentsline {subsection}{\numberline {A.1}Apache Traffic Server}{15}{subsection.a.A.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2}Value-Based Caching Integration}{15}{subsection.a.A.2}
+\contentsline {subsection}{\numberline {A.2}ATS with Cloud Caching}{15}{subsection.a.A.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.3}Rabin Fingerprinting Demo}{15}{subsection.a.A.3}
+\contentsline {subsection}{\numberline {A.3}Value-Based Caching Integration}{15}{subsection.a.A.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.4}Rabin Fingerprinting Demo}{16}{subsection.a.A.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {B}Better Integration: Google Native Client }{16}{Appendix.a.B}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Idea}{16}{section*.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Setting up Native Client}{16}{section*.3}
+\contentsline {paragraph}{Setting up Native Client}{17}{section*.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Debugging}{16}{section*.4}
+\contentsline {paragraph}{Debugging}{17}{section*.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Challenges}{17}{section*.5}
