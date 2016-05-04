@@ -6,26 +6,36 @@ To run barebones, non-augmented version of ATS, run the following commands:
 
 \begin{enumerate}
 
+\item Clone the FlyingSquid scripts repository
+
+\begin{lstlisting} [language=bash] 
+git clone https://github.com/FlyingSquid/scripts.git
+\end{lstlisting}
+
 \item Change into the setup directory and execute the setup script.
 
 \begin{lstlisting} [language=bash] 
-cd $(FLYING_SQUID_ROOT_DIR)/scripts/setup
-sudo ./setup.sh
+cd ./scripts/setup
+./setup.sh
 \end{lstlisting}
 
-\item 
+This script installs the required dependencies, downloads trafficserver (ATS) into \verb|/mnt|, makes trafficserver, and installs it into \verb|/opt/ts|.
 
-Change into the traffic server directory and start the Apache Traffic Server.
+\item
+
+Change into the traffic server directory and start Apache Traffic Server in debug mode (stoppable by \verb|Ctrl-C|):
 
 \begin{lstlisting} [language=bash] 
-cd $(FLYING_SQUID_ROOT_DIR)/trafficserver
-make
-sudo make install
+sudo /opt/ts/bin/traffic_server
+\end{lstlisting}
+
+To start or stop trafficserver as a daemon process:
+\begin{lstlisting}[language=bash]
 sudo /opt/ts/bin/trafficserver stop
 sudo /opt/ts/bin/trafficserver start
 \end{lstlisting}
 
-\item Make some changes to the ATS proxy configurations file.
+\item Make some changes to the ATS proxy configurations file to set it up as a forward proxy:
 
 \begin{lstlisting} [language=bash] 
 cd /opt/ts/etc/trafficserver
@@ -33,15 +43,19 @@ cd /opt/ts/etc/trafficserver
 
 Open the \verb|records.config| file and replace the following lines:
 
-\verb|CONFIG proxy.config.reverse_proxy_enabled INT 1|
-\verb|CONFIG proxy.config.url_remap.remap_required INT 1|
-\verb|CONFIG proxy.config.http.cache.http INT 0|
+\begin{verbatim}
+CONFIG proxy.config.reverse_proxy_enabled INT 1
+CONFIG proxy.config.url_remap.remap_required INT 1
+CONFIG proxy.config.http.cache.http INT 0
+\end{verbatim}
 
 With the following lines:
 
-\verb|CONFIG proxy.config.reverse_proxy_enabled INT 0|
-\verb|CONFIG proxy.config.url_remap.remap_required INT 0|
-\verb|CONFIG proxy.config.http.cache.http INT 1|
+\begin{verbatim}
+CONFIG proxy.config.reverse_proxy_enabled INT 0
+CONFIG proxy.config.url_remap.remap_required INT 0
+CONFIG proxy.config.http.cache.http INT 1
+\end{verbatim}
 
 \item Test the proxy with the following command:
 
@@ -55,11 +69,74 @@ curl —-proxy http://127.0.0.1:8080 -o /dev/null http://i.imgur.com/A2FUg9g.png
 /opt/ts/bin/traffic_logcat -f /opt/ts/var/log/trafficserver/squid.blog
 \end{lstlisting}
 
+Additionally, ATS can be started with the debug mode to view any logs with a given tag
+
+\begin{lstlisting}[language=bash]
+sudo /opt/ts/bin/traffic_server -T<DEBUG_TAG>
+\end{lstlisting}
+
+
 \end{enumerate}
 
 \subsection{ATS with Cloud Caching}
 
+\begin{enumerate}
 
+\item
+Download and install the AWS C++ SDK
+
+\begin{lstlisting}[language=bash]
+cd /mnt
+git clone https://github.com/aws/aws-sdk-cpp.git
+mkdir build-aws-sdk-cpp
+cd build-aws-sdk-cpp
+cmake ../aws-sdk-cpp -DBUILD_ONLY="aws-cpp-sdk-s2" -DCUSTOM_MEMORY_MANAGEMENT=0
+make
+sudo make install
+\end{lstlisting}
+
+\item
+Point ATS cache Makefile to the local version of the headers:
+
+Open \verb|/mnt/trafficserver/iocore/cache/Makefile.am| and update line 31 and 32 to reflect where your AWS C++ SDK headers reside. Most likely, they will be updated to the following:
+
+\begin{verbatim}
+-I/mnt/aws-sdk-cpp/aws-cpp-sdk-core/include \
+-I/mnt/aws-sdk-cpp/aws-cpp-sdk-s3/include
+\end{verbatim}
+
+\item
+Update the following lines in \verb|/opt/ts/etc/trafficserver/records.config|
+
+\begin{verbatim}
+CONFIG proxy.config.http.cache.cloud.enable INT 0
+CONFIG proxy.config.http.cache.cloud.provider STRING NULL
+\end{verbatim}
+
+To the following to enable cloud caching with AWS:
+
+\begin{verbatim}
+CONFIG proxy.config.http.cache.cloud.enable INT 1
+CONFIG proxy.config.http.cache.cloud.provider STRING "aws" 
+\end{verbatim}
+
+\item
+Install the Redis command line interface from: \url{http://redis.io/download}
+
+Set up an initial cluster with the following tutorial:
+
+ \url{http://redis.io/topics/cluster-tutorial}
+
+\item
+Recompile ATS and run:
+
+\begin{lstlisting}[language=bash]
+cd /mnt/trafficserver
+make && sudo make install
+sudo /opt/ts/bin/traffic_server
+\end{lstlisting}
+
+\end{enumerate}
 
 \subsection{Value-Based Caching Integration}
 
