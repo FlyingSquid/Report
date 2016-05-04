@@ -154,25 +154,31 @@ ATS will be running on port 8080.
 
 \item 
 
-Set Google chrome or Mozilla Firefox to point to the port that the TCP Proxy Client (Browser's Interfacing Layer) will run on. 
+Set Google chrome or Mozilla Firefox to point to the port on which the TCP Proxy Client (Browser's Interfacing Layer) will run.
 
 \item 
 
-Start up the TCP Proxy Server (ATS's Interfacing Layer) in another terminal:
+Start up the TCP Proxy Server (ATS's Interfacing Layer) on the machine on which ATS is running:
 
 \begin{lstlisting} [language=bash] 
 cd $(RABIN_FINGERPRINT_DIR)/Integration/tcpproxy
-tcpproxy_server <local host ip> <tcpproxy_server port> <local host ip> 8080
+make
+tcpproxy_server <localhost ip> <tcpproxy_server port> <ATS ip> <ATS port>
 \end{lstlisting}
+
+Where \verb|<tcpproxy_server port>| is where \verb|tcpproxy_server| will accept connections.
 
 \item
 
-Start up the TCP Proxy Client (Browser's Interfacing Layer) in another terminal:
+Start up the TCP Proxy Client (Browser's Interfacing Layer) on the client machine:
 
 \begin{lstlisting} [language=bash] 
 cd $(RABIN_FINGERPRINT_DIR)/Integration/tcpclient.
-tcpproxy_client <local host ip> <tcpproxy_client port> <local host ip> <tcpproxy_server port>
+make
+tcpproxy_client <localhost ip> <tcpproxy_client port> <tcpproxy_server ip> <tcpproxy_server port>
 \end{lstlisting}
+
+Where \verb|<tcpproxy_client port>| is where \verb|tcpproxy_client| will accept connections.
 
 \item
 
@@ -190,15 +196,19 @@ Start up the Rabin Fingerprinting Server:
 
 \begin{lstlisting} [language=bash] 
 cd $(RABIN_FINGERPRINT_DIR)/Server
+make
 ./rabinserver <Rabin Server port> ../Files/HTML/CSWebpage.html ../Files/HTML/CSWebpageWithoutHead.html
 \end{lstlisting}
 
-\item Start up the Rabin Fingerprinting Client in another terminal:
+\item Start up the Rabin Fingerprinting Client. Use open for mac and xdj-open for linux in the main.cc file for the Rabin Client.
 
 \begin{lstlisting} [language=bash] 
 cd $(RABIN_FINGERPRINT_DIR)/Client
+make
 ./rabinclient localhost <Rabin Server port> test.html
 \end{lstlisting}
+
+\item Enter 1 and press enter on the Rabin Fingerprinting Client to receive another file. 
 
 \end{enumerate}
 
