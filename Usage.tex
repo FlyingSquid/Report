@@ -67,3 +67,60 @@ cd $(RABIN_FINGERPRINT_DIR)/Client
 \end{lstlisting}
 
 \end{enumerate}
+
+\subsection{Apache Traffic Server}
+
+To run barebones, non-augmented version of ATS, run the following commands:
+
+\start{enumerate}
+
+\item Change into the setup directory and execute the setup script.
+
+\begin{lstlisting} [language=bash] 
+cd $(FLYING_SQUID_ROOT_DIR)/scripts/setup
+sudo ./setup.sh
+\end{lstlisting}
+
+\item 
+
+Change into the traffic server directory and start the Apache Traffic Server.
+
+\begin{lstlisting} [language=bash] 
+cd $(FLYING_SQUID_ROOT_DIR)/trafficserver
+make
+sudo make install
+sudo /opt/ts/bin/trafficserver stop
+sudo /opt/ts/bin/trafficserver start
+\end{lstlisting}
+
+\item Make some changes to the ATS proxy configurations file.
+
+\begin{lstlisting} [language=bash] 
+cd /opt/ts/etc/trafficserver
+\end{lstlisting}
+
+Open the \verb|records.config| file and replace the following lines:
+
+\verb|CONFIG proxy.config.reverse_proxy_enabled INT 1|
+\verb|CONFIG proxy.config.url_remap.remap_required INT 1|
+\verb|CONFIG proxy.config.http.cache.http INT 0|
+
+With the following lines:
+
+\verb|CONFIG proxy.config.reverse_proxy_enabled INT 0|
+\verb|CONFIG proxy.config.url_remap.remap_required INT 0|
+\verb|CONFIG proxy.config.http.cache.http INT 1|
+
+\item Test the proxy with the following command:
+
+\begin{lstlisting} [language=bash] 
+curl —-proxy http://127.0.0.1:8080 -o /dev/null http://i.imgur.com/A2FUg9g.png
+\end{lstlisting}
+
+\item To view the logging, execute the following command:
+
+\begin{lstlisting} [language=bash] 
+/opt/ts/bin/traffic_logcat -f /opt/ts/var/log/trafficserver/squid.blog
+\end{lstlisting}
+
+\end{enumerate}
