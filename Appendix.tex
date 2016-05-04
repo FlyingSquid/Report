@@ -8,11 +8,11 @@
 
 The idea behind using Google Native Client \cite{GoogleNativeClient} is simply to eliminate the browser's interfacing layer. With Google Native Client, the browser can run C++ code in the browser. This way, the request does not have to pass through the TCP proxy interfacing layer and can go straight to ATS. Not only would this make Flying Squid more secure and portable, but it would also bring huge performance benefits.
 
-In a web application, Google Native Client is embedded within the HTML through the use of an <embed> tag. The JavaScript and Google Native Client modules talk to each other via bidirectional, asynchronous messages.
+In a web application, Google Native Client is embedded within the HTML through the use of an \verb|<embed>| tag. The JavaScript and Google Native Client modules talk to each other via bidirectional, asynchronous messages.
 
 \paragraph{Setting up Native Client}
 
-Before Native Client can be set up, Python 2.7 and Make need to be available on the machine. Once these executables are available, the Native Client executable can be downloaded at the following website: https://developer.chrome.com/native-client/sdk/download. A Hello World Tutorial is also available at https://developer.chrome.com/native-client/devguide/tutorial/tutorial-part1.
+Before Native Client can be set up, Python 2.7 and Make need to be available on the machine. Once these executables are available, the Native Client executable can be downloaded at the following website: https://developer.chrome.com/native-client/sdk/download. A Hello World Tutorial is also available at \url{https://developer.chrome.com/native-client/devguide/tutorial/tutorial-part1}.
 
 For our purposes, however, perform the following steps to get up to speed:
 
